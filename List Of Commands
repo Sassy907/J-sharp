@@ -1,0 +1,36 @@
+
+System & Console Commands
+console.log(message); Prints a message or interpolated string to the output console window.
+
+Example: console.log("System Ready!");
+
+Interpolation: console.log($"Player Name: {this.Name}");
+
+Task.sleep(milliseconds); Pauses non-blocking execution asynchronously for a specified duration.
+
+Example: await Task.sleep(500);
+
+
+2D Engine Rendering Commands
+Use these commands to render graphics directly onto the 2D Game Display:
+
+Canvas.drawRect(x, y, width, height); Renders a rectangle on the 2D viewport at (x, y).
+
+Example: Canvas.drawRect(this.X, this.Y, 30, 30);
+
+Canvas.drawCircle(x, y, radius); Renders a circle at the specified coordinates.
+
+Example: Canvas.drawCircle(100, 150, 20);
+
+Canvas.clear(); Clears all active shapes on the 2D canvas.
+
+
+
+Interactive Input Bindings
+When running a 2D application in J# Studio, the viewport captures key presses automatically:
+
+Movement Commands: W, A, S, D or Up, Down, Left, Right Arrow keys update the active canvas frame.
+
+Auto-Complete Command: Press Tab or Enter inside the code editor to auto-complete keywords and commands.
+
+
